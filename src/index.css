@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+/* Theme 1 - Light, Sans-serif */
+.theme1 {
+  @apply bg-white text-black font-sans;
+}
+
+/* Theme 2 - Dark, Serif with sidebar layout support */
+.theme2 {
+  @apply bg-gray-900 text-white font-serif;
+}
+
+/* Theme 3 - Colorful, Playful font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.theme3 {
+  @apply bg-yellow-100 text-purple-800;
+  font-family: 'Pacifico', cursive;
+}
+
